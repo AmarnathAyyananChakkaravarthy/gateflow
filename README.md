@@ -6,6 +6,7 @@ GateFlow is a React Native application built with Expo that enables fast QR code
 
 ---
 
+
 ## Features
 
 ### Core Capabilities
@@ -336,5 +337,10 @@ npx tsc --noEmit
 - Security enhancements (SQL injection fixes)
 
 ---
+
+## APP SCREENSHOT
+
+<img width="1170" height="2532" alt="photo_5_2026-08-23_20-21-20" src="https://github.com/user-attachments/assets/7f6cc25f-a03a-4326-91fd-556b9685e024" />
+
 
 **Built with ❤️ for secure campus management**
