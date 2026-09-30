@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "GateFlow",
+    "slug": "gateflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a202c"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gateflow.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "GateFlow needs camera access to scan QR codes for student verification.",
+        "NSPhotoLibraryUsageDescription": "GateFlow needs photo library access to save exported reports."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a202c"
+      },
+      "package": "com.gateflow.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow GateFlow to access your camera to scan QR codes."
+        }
+      ],
+      "expo-router"
+    ],
+    "scheme": "gateflow",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "gateflow-app"
+      }
+    }
+  }
+}
