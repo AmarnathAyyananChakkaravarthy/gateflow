@@ -340,6 +340,16 @@ npx tsc --noEmit
 
 ## APP SCREENSHOT
 
+### QR Scanner Screen
+<img width="1170" height="2532" alt="photo_2_2026-08-23_20-21-20" src="https://github.com/user-attachments/assets/bf592c14-81c7-412f-adb0-60aab6d266ad" />
+
+### QR Scanner Screen - Student Allowed - Success
+<img width="1170" height="2532" alt="photo_4_2026-08-23_20-21-20" src="https://github.com/user-attachments/assets/d9fbd85b-33a4-4f68-bd70-32d14b353bfc" />
+
+### QR Scanner Screen - Student Not Allowed - Failure
+<img width="1170" height="2532" alt="photo_3_2026-08-23_20-21-20" src="https://github.com/user-attachments/assets/5d7a2462-92f9-4364-a4d4-6786a950548a" />
+
+### Student Entry & Exit Logs
 <img width="1170" height="2532" alt="photo_5_2026-08-23_20-21-20" src="https://github.com/user-attachments/assets/7f6cc25f-a03a-4326-91fd-556b9685e024" />
 
 
